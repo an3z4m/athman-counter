@@ -1,0 +1,44 @@
+*{
+	direction: rtl;
+	text-align:center;	
+}
+body{
+ 	font-family:KacstQurn;
+	margin:auto;
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+div{
+	height:14.28%;
+	width:95%;
+	margin:auto;
+}
+div.title{
+	display:inline-block;
+	float:right;
+	width:50%;
+}
+
+input{
+outline: none;
+	width:95%;
+	height:90%;
+	color:green;
+	background:#F3EEEF;
+	border-style:solid;
+	border-width:1px;
+	padding:0.5 0.5 0.5 0.5;
+	font-size:90%;	
+	-moz-border-radius: 1em 4em 1em 4em;
+	border-radius: 1em 4em 1em 4em;
+}
+input.correct{
+	color:#52fe20;
+	border-color:#52fe20;
+}
+input.error{
+	color:#fe2052;
+	border-color:#fe2052;
+}
+
